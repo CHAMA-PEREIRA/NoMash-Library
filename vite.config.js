@@ -6,7 +6,7 @@ import vueDevTools from 'vite-plugin-vue-devtools'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: process.env.NODE_ENV === 'production' ? '/nomash-library/' : '/',
+  base: process.env.NODE_ENV === 'production' ? '/NoMash-Library/' : '/',
   plugins: [
     vue(),
     vueDevTools(),
